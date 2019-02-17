@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Script jQuery Menu 3D qui estompe la page pour apparaitre : Outils-web.com</title>
+<meta name="description" content="Script jQuery Lorsqu'on clique pour faire apparaitre le menu, la page courante se reduit avec effet 3D pour faire place au menu" />
+<meta name="Robots" content="all"/>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load --> 
+		<script src="js/modernizr.custom.25376.js"></script>
+</head>
+<body>
+		<div id="perspective" class="perspective effect-airbnb">
+		<!-- les différents effets sont : airbnb / moveleft / rotateleft / movedown / rotatetop / laydown-->
+			<div class="container">
+				<div class="wrapper"><!-- nécessaire -->
+					<div class="main clearfix">
+						<div class="column">
+							<p><button id="showMenu">Afficher le Menu</button></p>
+							<p>effect-airbnb / menu left vertical</p>
+							<p>Pour revenir à la page cliquez sur celle-ci.</p>
+						</div>
+					</div><!-- /main -->
+				</div><!-- wrapper -->
+			</div><!-- /container -->
+			<nav class="outer-nav left vertical">
+			<!-- position du menu : top left etc... orientation du menu : horizontal ou vertical -->
+				<a href="#" class="icon-home">Accueil</a>
+				<a href="#" class="icon-news">News</a>
+				<a href="#" class="icon-image">Images</a>
+				<a href="#" class="icon-upload">Téléchargements</a>
+				<a href="#" class="icon-star">Favoris</a>
+				<a href="#" class="icon-mail">Messages</a>
+				<a href="#" class="icon-lock">Admin</a>
+			</nav>
+		</div>
+		<!-- laisser ces lignes à cette place -->
+		<script src="js/classie.js"></script>
+		<script src="js/menu.js"></script>
+</body>
+</html>
